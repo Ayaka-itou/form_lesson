@@ -155,6 +155,19 @@
   border-radius: 3px;
 }
 
+.input-area:focus {
+  background-color: #fff;
+  border-color: rgba(59, 133, 133, .4);
+  box-shadow: 0 0 0 2px rgb(1 191 189 / 10%);
+}
+
+.input-init {
+  -webkit-appearance: none;
+  outline: none;
+  appearance: none;
+  resize: none;
+}
+
 /*性別*/
 .gender-choices {
   display: flex;
@@ -278,6 +291,12 @@ input, select {
 
 .submit-btn:hover {
   background-color: #01a6a4;
+}
+
+.submit-btn:active {
+  background-color: #fff;
+  color: #01a6a4;
+  border: 1px solid #d9d9d9;
 }
 
 .agreement {
