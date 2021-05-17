@@ -163,8 +163,8 @@
 
 .input-init {
   -webkit-appearance: none;
-  outline: none;
   appearance: none;
+  outline: none;
   resize: none;
 }
 
@@ -310,6 +310,10 @@ input, select {
 
 .link-color:hover {
   color: #01bfbd;
+}
+
+.input-init[type="submit"] {
+  border:none;
 }
 
 /*foot-part*/
